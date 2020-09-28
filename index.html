@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <script type="text/javascript">
+        function openFunction() {
+            document.getElementById("menu").style.width = "300px";
+            document.getElementById("mainbox").style.marginRight = "300px";
+            document.getElementById("mainbox");
+        }
+
+        function closeFunction(e) {
+            e.preventDefault();
+            document.getElementById("menu").style.width = "0px";
+            document.getElementById("mainbox").style.marginRight = "0px";
+            document.getElementById("mainbox").innerHTML = "&#9776; ";
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bg-img">
+        <div class="navbar">
+
+            <div id="mainbox" onclick="openFunction()">&#9776;
+
+            </div>
+            <div id="menu" class="sidemenu">
+                <a href="#"><i class="fas fa-home"></i>&nbsp; Home</a>
+                <a href="#about"><i class="far fa-address-card"></i>&nbsp; About</a>
+                <a href="#contact"><i class="fas fa-address-book"></i>&nbsp; Contact</a>
+                <a href="#portfolio"><i class="fas fa-image"></i>&nbsp; Portfolio</a>
+                <a href="#skill"><i class="fas fa-sort-amount-up"></i>&nbsp; Skills</a>
+                <a href="resume/AnkurResume.pdf"><i class="fas fa-file-download"></i>&nbsp; Resume</a>
+
+                <a href="#" class="closebtn" onclick="return closeFunction(event)">&times;</a>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="logo">
+                <i class="fab fa-lastfm"></i>
+            </div>
+            <h3>INTRODUCE</h3>
+            <p>Welcome To <br>
+                Ankur Design Studio</p>
+            <h1 data-text="<span>HELLO</span> MY NAME IS  ANKUR SAXENA."><span>HELLO</span> MY NAME IS <br> ANKUR SAXENA.</h1>
+        </div>
+        <div class="icon">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <br>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a><br>
+            <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a> <br>
+            <a href="https://www.gmail.com/"><i class="fas fa-envelope"></i></a><br>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <br>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <!--     bg-img end-->
+    <div id="about" class="about">
+        <div class="container">
+            <h1>ABOUT ME</h1>
+            <div class="detail">
+
+                <h3>CREATIVE DESIGNER FROM INDIA</h3>
+                <h2>Ankur Saxena, am a graphic and web designer living in Agra but I belongs to Aligarh, am fresher. I have a certificate of Graphic,Web Designing and Development from Arena Animation at Agra.</h2>
+                <a href="#portfolio">SEE PORTFOLIO</a>
+            </div>
+        </div>
+    </div>
+<div class="skillsBox" id="skill">
+<div class="container">
+	<h1>Skills</h1>
+		
+	 <ul>
+            <li class="html">HTML</li>
+            <li class="css">CSS</li>
+            <li class="bootstrap">Bootstrap</li>
+            <li class="Javascript">Javascript</li>
+            <li class="Ai">illustrator</li>
+            <li class="ng">Photoshop</li>
+            
+        </ul>
+
+	</div>
+<!--	container end-->
+</div>
+    <div id="contact" class="contact">
+        <div class="container">
+            <h1>CONTACT ME</h1>
+            <p id="get">Get in touch with me</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="touch">
+                        <h3>Get in Touch</h3>
+                        <p><span>Address:</span> Pala Holi Chowk, Aligarh.</p>
+                        <p><span>Email:</span> ankursax95@gmail.com</p>
+                        <p><span>Mobile:</span> +9760627882,+7500236284</p>
+                        <p><span>Website:</span> www.yourdomain.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="contact-form">
+                        <form id="contact-form" method="post" action="">
+                            <input name="name" type="text" class="form-control" placeholder="Your name" required><br>
+                            <input name="email" type="text" class="form-control" placeholder="Your Email" required><br>
+                            <textarea name="message" class="form-control" placeholder="message" rows="3" required></textarea><br>
+                            <input type="submit" class="form-control sumbit" value="SEND MESSAGE" id="submit">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--    contact end-->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1>MY PORTFOLIO</h1>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="illustrator-tab" data-toggle="tab" href="#illustrator" role="tab" aria-controls="illustrator" aria-selected="true">illustrator</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="photoshop-tab" data-toggle="tab" href="#photoshop" role="tab" aria-controls="photoshop" aria-selected="false">Photoshop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="web" aria-selected="false">Web design</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="illustrator" role="tabpanel" aria-labelledby="illustrator-tab">
+                 
+                  <div class="row no-gutters gallerys">
+  <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/aNKUR.jpg" target="_blank">
+    <img src="images/aNKUR.jpg" class="img-fluid">
+   </a>
+  </div>
+
+   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Beach-seen.jpg" target="_blank">
+    <img src="images/Beach-seen.jpg" class="img-fluid">
+   </a>
+  </div>
+                   
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/butterfly-soul-123456.jpg" target="_blank">
+    <img src="images/butterfly-soul-123456.jpg" class="img-fluid">
+   </a>
+  </div>
+                   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Blend,Face-Of-Lion.jpg" target="_blank">
+    <img src="images/Blend,Face-Of-Lion.jpg" class="img-fluid">
+   </a>
+  </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/blend-of-roboat.jpg" target="_blank">
+    <img src="images/blend-of-roboat.jpg" class="img-fluid">
+   </a>
+  </div>      
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Scenery.jpg" target="_blank">
+    <img src="images/Scenery.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/spiderman.jpg" target="_blank">
+    <img src="images/spiderman.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/VLCC-ADs.jpg" target="_blank">
+    <img src="images/VLCC-ADs.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/lotion-aid.jpg" target="_blank">
+    <img src="images/lotion-aid.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Iron-Man.jpg" target="_blank">
+    <img src="images/Iron-Man.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Miss-Led-Miss-you-fashion-illustration.jpg" target="_blank">
+    <img src="images/Miss-Led-Miss-you-fashion-illustration.jpg" class="img-fluid">
+   </a>
+  </div>
+                   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/typography--The-taj-2.jpg" target="_blank">
+    <img src="images/typography--The-taj-2.jpg" class="img-fluid">
+   </a>
+  </div>
+                    </div>
+                </div>
+                <!--  illustrator tab end-->
+                <div class="tab-pane fade" id="photoshop" role="tabpanel" aria-labelledby="photoshop-tab">
+                              <div class="row no-gutters gallerys">
+  <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Frost-hands-effect.jpg" target="_blank">
+    <img src="images/Frost-hands-effect.jpg" class="img-fluid">
+   </a>
+  </div>
+
+   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/compositing.jpg" target="_blank">
+    <img src="images/compositing.jpg" class="img-fluid">
+   </a>
+  </div>
+                   
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/creative.jpg" target="_blank">
+    <img src="images/creative.jpg" class="img-fluid">
+   </a>
+  </div>
+                   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/manuplation-new2.jpg" target="_blank">
+    <img src="images/manuplation-new3.jpg" class="img-fluid">
+   </a>
+  </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/matte-painting.jpg" target="_blank">
+    <img src="images/matte-painting.jpg" class="img-fluid">
+   </a>
+  </div>      
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Bride-1.jpg" target="_blank">
+    <img src="images/Bride-1.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/dispersion-2.jpg" target="_blank">
+    <img src="images/dispersion-2.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/Dispersion1.jpg" target="_blank">
+    <img src="images/Dispersion1.jpg" class="img-fluid">
+   </a>
+  </div>
+ 
+                   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/night-sky-stars-manuplation.jpg" target="_blank">
+    <img src="images/night-sky-stars-manuplation.jpg" class="img-fluid">
+   </a>
+  </div>
+                   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/collage-clipmasking.jpg" target="_blank">
+    <img src="images/collage-clipmasking.jpg" class="img-fluid">
+   </a>
+  </div>
+                   <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/manuplation-new2.jpg" target="_blank">
+    <img src="images/manuplation-new2.jpg" class="img-fluid">
+   </a>
+  </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 "> 
+   <a href="images/damaged-old-pic-2.jpg" target="_blank">
+    <img src="images/damaged-old-pic-2.jpg" class="img-fluid">
+   </a>
+  </div>
+                    </div>
+                </div>
+                <!--  photoshop tab end-->
+                <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
+                    <ul>
+                        <li><a href="https://unicode9760.github.io/nearsite.github.io/" target="_blank">Opticals</a></li>
+                        <li><a href="https://unicode9760.github.io/music.github.io/" target="_blank">Music</a></li>
+                        <li><a href="https://unicode9760.github.io/cricketworldcup.github.io/" target="_blank">Worldcup</a></li>
+                        <li><a href="https://unicode9760.github.io/worldblog.github.io/" target="_blank">World Blog</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                 <div class="abt">
+                  <h1>About us</h1>
+                  
+                   <h2>Ankur Saxena</h2>
+                   
+               <p>I am a graphic and web designer. I have a certificate of Graphic,Web Designing and Development from Arena Animation at Agra.</p>
+              <ul>
+                  <li><a href="https://www.facebook.com/100004736557936/posts/1617693725065164/?app=fbl"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://www.instagram.com/p/CFp6hDIAOMK/?igshid=f0d3yx5jhzl8"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://twitter.com/Unicode11382969/status/1288206792053456897?s=19"><i class="fab fa-twitter"></i></a> </li>
+                  <li><a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></li>
+              </ul>
+              
+        </div>
+               </div>
+               <!-- abt end -->
+              
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="graphic">
+                   <h1>Graphics</h1>
+                   <ul>
+                       <li><a href="#">Illustrator</a></li>
+                       <li><a href="#">Photoshop</a></li>
+                       <li><a href="#">Coral Draw</a></li>
+                       <li><a href="#">Animate cc</a></li>
+                   </ul>
+               </div>
+               <!-- graphic end -->
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="web">
+                   <h1>Web Design</h1>
+                   <ul>
+                       <li><a href="#">Html</a></li>
+                       <li><a href="#">CSS</a></li>
+                       <li><a href="#">Bootstrap</a></li>
+                       <li><a href="#">Angular</a></li>
+                       <li><a href="#">PHP</a></li>
+                   </ul>
+               </div>
+               <!-- web end -->
+               </div>
+           </div>
+           <p>Copy Right © By <span>Ankur Saxena</span> 2018-19 | All Rights Reserved.</p>
+       </div>
+       <!-- container end -->
+    </div>
+        
+       <!-- footer end      -->
+
+    </div>
+    
+
+   
+
+
+        
+
+
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+   $(document).ready(function(){
+    $('.gallerys').magnificPopup({
+     type: 'image',
+     delegate: 'a',
+     gallery: {
+      enabled : true
+     }
+    });
+   });
+  </script>
+</body>
+
+</html>
